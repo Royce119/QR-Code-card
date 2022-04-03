@@ -1,0 +1,40 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.landing {
+    height: 100vh;
+    background-color: hsl(220, 15%, 55%);
+}
+.landing .container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px; 
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+.landing .container img {
+    width: 300px;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+.landing .container .textbox {
+    padding: 25px;
+    text-align: center;
+}
+.landing .container .textbox h1 {
+    font-size: 20px;
+    color: hsl(218, 44%, 22%);
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.landing .container .textbox p {
+    font-size: 15px;
+    color: hsl(212, 16%, 69%);
+    font-weight: 400;
+}
